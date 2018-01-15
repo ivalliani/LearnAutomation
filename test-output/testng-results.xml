@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14572" started-at="2018-01-13T22:31:21Z" finished-at="2018-01-13T22:31:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14572" started-at="2018-01-13T22:31:21Z" finished-at="2018-01-13T22:31:35Z">
+      <class name="testCases.VerifyLAtowncarReport">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:testCases.VerifyLAtowncarReport@7c16905e]" name="Setup" is-config="true" duration-ms="8815" started-at="2018-01-13T16:31:21Z" finished-at="2018-01-13T16:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:testCases.VerifyLAtowncarReport@7c16905e]" name="testHomePage" duration-ms="3910" started-at="2018-01-13T16:31:29Z" finished-at="2018-01-13T16:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.VerifyLAtowncarReport@7c16905e]" name="closeBrowser" is-config="true" duration-ms="1821" started-at="2018-01-13T16:31:33Z" finished-at="2018-01-13T16:31:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePage status=SUCCESS method=VerifyLAtowncarReport.testHomePage()[pri:0, instance:testCases.VerifyLAtowncarReport@7c16905e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.VerifyLAtowncarReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
